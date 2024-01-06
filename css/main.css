@@ -1,0 +1,244 @@
+/*Fonts*/
+/* raleway-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/raleway-v29-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/raleway-v29-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/raleway-v29-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html, body {
+  font-family: 'Raleway';
+  font-style: normal;
+}
+
+
+/*Nav*/
+.nav-head {
+   height: 100px auto;
+   background: #E1EDE6;
+}
+
+.nav-item {
+   color: #2C2D35;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.logo-text {
+   color: #598D66;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+
+
+
+/*Hero*/
+.hero {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 69px;
+}
+
+.hero-text {
+   margin-left: 30px;
+}
+
+.h1-style {
+   color: #598D66;
+   font-family: Raleway;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 110%;
+}
+
+.hero-title {
+   color: #2C2D35;
+   font-family: Raleway;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 110%;
+   margin-top: 145px;
+   margin-bottom: 20px;
+}
+
+.hero-info {
+   color: #86928B;
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%;
+   width: 540px;
+   margin-bottom: 60px;
+}
+
+
+/*Reproduction*/
+.reproduction {
+  margin-bottom: 70px;
+}
+
+.repro-brand {
+   color: #2C2D35;
+   font-family: Raleway;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 110%;
+}
+
+
+.col-lg-12 {
+
+}
+
+.cards {
+   background: #E1EDE6;
+
+}
+
+.col-lg-3 {
+   width: 350px;
+}
+
+.repro-btn-active {
+   border-radius: 20px;
+   background: #376B44;
+   color: #F4F6F5;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   display: flex;
+   padding: 10px 20px;
+   align-items: flex-start;
+   border: none;
+}
+
+.repro-btn  {
+   border-radius: 20px;
+   background: #D4E8D9;
+   display: flex;
+   padding: 10px 20px;
+   align-items: flex-start;
+   border: none;
+   color: #2C2D35;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.padding-item {
+   margin-right: 20px;
+}
+
+.padding-nav:nth-last-child() {
+   margin-right: 0;
+}
+
+.repro-title {
+   margin-bottom: 30px;
+}
+
+/*Reproduction Cards*/
+.col-lg-12 {
+   padding: 20px;
+   padding-top: 20px;
+}
+
+.card-pic {
+   margin-bottom: 20px;
+}
+
+.card-btn {
+   color: #598D66;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   display: flex;
+   width: 310px;
+   height: 65px;
+   padding: 20px 60px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   border: 1px solid #598D66;
+}
+
+.card-autor {
+   color: #86928B;
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-bottom: 10px;
+}
+
+.card-name {
+   color: #2C2D35;
+   font-family: Raleway;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-bottom: 8px;
+}
+
+.card-material {
+   color: #2C2D35;
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-bottom: 30px;
+}
+
+.card-price {
+   color: #598D66;
+   font-family: Raleway;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-bottom: 20px;
+}
+
+.row1 {
+  margin-bottom: 12px;
+}
+/*Reproduction End*/
